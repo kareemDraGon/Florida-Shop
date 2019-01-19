@@ -121,10 +121,6 @@ welcomer.sendFile(canvas.toBuffer())
  }
 });
 
-
- //كود الموف
-
-
  //كود التقديم
 client.on('message', async (message) => {
   if(message.content.startsWith("#تقديم")) {
